@@ -1,10 +1,7 @@
 //JavaScript
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
+var a = 2; //sets up variable
+var b;
+b = a + 3; // add 3 to a
 
-muppetNames[1] = "Rizzo";//changing to Rizzo
-muppetNames[2] = "Fozzy";
-
-var num = 2;
-
-console.log(muppetNames[num]); 
+console.log(a);
