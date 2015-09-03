@@ -1,6 +1,9 @@
 //JavaScript
 
-var yearBorn = 1974;
-var age = 2015 - yearBorn - 1;
-console.log(age);
+//area of triangle is half of the width times height
+
+var width = 4;
+var height = 5;
+
+var area = width * height;
 
