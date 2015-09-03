@@ -1,8 +1,11 @@
 //JavaScript
 
-var age; //declaration
-age = 38; //definition
+var age = 38; //number variable
 
-//storage container = value
+var isStudent = false;
 
-var yearOfBirth = 1970; //declaring and defining on the same line
+var johnnie = "my friend";
+
+var firstName = "Johnnie";
+
+var phrase = 'I don\'t know \n you\'ll have to speak to the professor';
