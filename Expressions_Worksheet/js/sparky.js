@@ -10,4 +10,5 @@ var sparkyAge = prompt("Today we are going to find out how old sparky is in dog 
 dogYears = 7;
 var sparkyMath = sparkyAge * dogYears;
 
+alert("To find out how old sparky is in dog years please check the browser's console.")
 console.log("Sparky is " + sparkyAge + " human years old which is " + sparkyMath + " in dog years.");
