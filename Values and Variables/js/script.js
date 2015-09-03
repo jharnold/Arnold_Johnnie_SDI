@@ -1,11 +1,10 @@
 //JavaScript
 
-var age = 38; //number variable
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
 
-var isStudent = false;
+muppetNames[1] = "Rizzo";//changing to Rizzo
+muppetNames[2] = "Fozzy";
 
-var johnnie = "my friend";
+var num = 2;
 
-var firstName = "Johnnie";
-
-var phrase = 'I don\'t know \n you\'ll have to speak to the professor';
+console.log(muppetNames[num]); 
