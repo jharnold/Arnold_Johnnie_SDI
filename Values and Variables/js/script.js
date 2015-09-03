@@ -1,6 +1,9 @@
 //JavaScript
 
-var stringVar = "6";
-var result = 7 + Number(stringVar);
+var areaCode = 678;
+var firstPart = 759;
+var secondPart = 8217;
+//
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secondPart);
+console.log(phoneNo);
 
-console.log(result);
