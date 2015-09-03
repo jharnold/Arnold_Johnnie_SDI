@@ -1,7 +1,6 @@
 //JavaScript
 
-var a = 6;
-var b = 7;
+var stringVar = "6";
+var result = 7 + Number(stringVar);
 
-var result = a + b;
 console.log(result);
