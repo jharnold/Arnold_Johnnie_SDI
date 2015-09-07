@@ -15,5 +15,8 @@ var calcPrice = calcDiscount - price;
 var wTax = calcPrice * tax;
 var taxPrice = wTax - calcPrice;
 
+//Decimal to Whole Calculation
+var decWhole = discount/100;
 
+alert("Your " + item + " was originally $" + ", but after a " )
 
