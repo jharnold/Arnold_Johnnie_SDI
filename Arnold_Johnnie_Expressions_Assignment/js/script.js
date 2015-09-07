@@ -8,7 +8,7 @@ alert("Hello " + userName + ". It seems that you have an account with us!");
 var aDeps = [1000, 250, 6000, 10000];
 var aWits = [900, 100, 3000];
 var accountD = aDeps[0] + aDeps[1] + aDeps[2] + aDeps[3];
-var accountW = accountD -= (aWits[0] + aWits[1] + aWits[2]);
+var accountW = accountD - (aWits[0] + aWits[1] + aWits[2]);
 var plus1 = aDeps[3] + 1;
 
 
@@ -20,11 +20,13 @@ alert(userName + ", we at Faking Banking would like to show our appreciation for
 
 prompt("HOLD ON! We're not finished yet.");
 
-userDeps = prompt("You need to put MORE money into your account! How much would you like to deposit?");
+var userDeps = Number(prompt("You need to put MORE money into your account! How much would you like to deposit?"));
 
 alert("You seriously want to put $" + userDeps + " into your account? Well, okay then.");
 
 var userFinal = userDeps + accountW +  1;
 
 alert(userName + ", your account now holds... Oh, hold on. You have to check your browser's console for the answer.");
+
+alert(userFinal);
 
