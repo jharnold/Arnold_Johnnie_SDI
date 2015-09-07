@@ -1,6 +1,5 @@
 /*
 Johnnie Arnold
-SDI
 Expressions Worksheet - Slice of Pie Part 2
 09/06/2015
  */
@@ -12,4 +11,6 @@ var numSlices = prompt("How may slices are there for each pizza?"); //user input
 
 var sliceCalc = numPizzas * numSlices/numPeeps;
 var sparkySlices = sliceCalc/numPizzas;
+
+alert("sparkySlices");
 
