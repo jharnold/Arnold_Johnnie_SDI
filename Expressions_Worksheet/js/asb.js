@@ -1,9 +1,11 @@
 /*
 Johnnie Arnold
+SDI
 Expressions Worksheet
+09/06/2015
  */
 
-var gBills = [111, 222, 333, 444, 555];
+var gBills = [123, 456, 789, 1011, 1213];
 var total = gBills[0] + gBills[1] + gBills[2] + gBills[3] + gBills[4];
 var average = (gBills[0] + gBills[1] + gBills[2] + gBills[3] + gBills[4])/5;
 
