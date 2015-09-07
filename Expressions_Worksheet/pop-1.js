@@ -10,3 +10,4 @@ var numSlices = prompt("How may slices are there for each pizza?");
 
 var sliceCalc = numPizzas * numSlices/numPeeps;
 
+alert("Each person ate " + sliceCalc + " slices of pizza at the party.");
