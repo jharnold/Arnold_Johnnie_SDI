@@ -2,7 +2,7 @@
 Johnnie Arnold
 Expressions Worksheet - Discounts
  */
-var item = prompt("What would you like to buy?");
+var item = Number(prompt("What would you like to buy?"));
 var price = prompt("How much is does the " + item + "cost?");
 var discount = prompt("How much is your discount?\nPlease make this a decimal (Example: .20 = 20%:)");
 var tax = prompt("How much tax is charged?\nPlease make this a decimal (Example: .20 = 20%:)");
@@ -18,5 +18,5 @@ var taxPrice = wTax - calcPrice;
 //Decimal to Whole Calculation
 var decWhole = discount/100;
 
-alert("Your " + item + " was originally $" + ", but after a " )
+alert("Your " + item + " was originally $" + ", but after a " + decWhole + "% discount, it is now $" + calcPrice + " without tax, and $" + taxPrice + " with tax." );
 
