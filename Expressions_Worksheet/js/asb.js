@@ -3,12 +3,7 @@ Johnnie Arnold
 Expressions Worksheet
  */
 
-var userInput = prompt("Please enter your past 5 grocery bills:");
-bill1 = userInput[0];
-bill2 = userInput[1];
-
-billTotal = bill1[0] + bill2[1];
-
-alert(billTotal);
-
+var gBills = [111, 222, 333, 444, 555];
+var total = gBills[0] + gBills[1] + gBills[2] + gBills[3] + gBills[4];
+var average = (gBills[0] + gBills[1] + gBills[2] + gBills[3] + gBills[4])/5;
 
