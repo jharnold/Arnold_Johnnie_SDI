@@ -12,5 +12,5 @@ var numSlices = prompt("How may slices are there for each pizza?"); //user input
 var sliceCalc = numPizzas * numSlices/numPeeps;
 var sparkySlices = numPizzas/sliceCalc;
 
-alert(sparkySlices);
+console.log("Sparky got " + sparkySlices + " slices of pizza");
 
