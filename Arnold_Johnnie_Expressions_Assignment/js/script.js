@@ -25,5 +25,5 @@ alert("You seriously want to put $" + userDeps + " into your account? Well, okay
 
 var userFinal = userDeps + accountW + creditAdd;
 
-alert(userName + ", your account now holds... Oh, hold on. You have to check your browser's console for the answer.)
+alert(userName + ", your account now holds... Oh, hold on. You have to check your browser's console for the answer.);
 
