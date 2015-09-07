@@ -18,6 +18,6 @@ taxPer = tax/100; //turns tax amount into decimal
 var wTax = calcPrice * taxPer; //calcPrice * decimal tax amount
 var taxPrice = calcPrice + wTax; //calcPrice - wtax
 
-
+alert("Please check the browser's console for results."); //tells user the results are in the browser's console
 console.log("Your " + item + " was originally $" + price + ", but after a " + discount + "% discount, it is now $" + calcPrice + " without tax, and $" + taxPrice + " with tax." ); //results
 
