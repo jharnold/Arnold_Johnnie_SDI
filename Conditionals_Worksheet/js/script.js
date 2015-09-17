@@ -18,7 +18,7 @@ if(userFC === "F" || userFC === "f"){
 }else if(userFC === "C" || userFC === "c"){
     var userCT = prompt("What is the temperature you would like to convert to fahrenheit?");
     var farF = userCT * 9/5 + 32;
-    alert("The temperature is " + farC + " degrees Fahrenheit.");
+    alert("The temperature is " + farF + " degrees Fahrenheit.");
 }else{
     alert("Please enter the correct letter.");
 }
