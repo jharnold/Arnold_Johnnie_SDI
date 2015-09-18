@@ -14,7 +14,7 @@ var dragAttack = prompt(userName + ", you have been stopped by a dragon!\nSelect
 
 //Conditionals
 
-if(dragAttack < 5 || dragAttack === 5 && dragAttack > 1 ){
+if(dragAttack < 5 || dragAttack === 5){
     dragLife = 100 - 90;
     humanLife = 100 - 40;
     alert("The dragon has been wounded!\nThe dragon's life is now at " + dragLife + "%!");
