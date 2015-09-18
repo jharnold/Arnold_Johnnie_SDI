@@ -6,7 +6,7 @@ Conditionals
  */
 
 //Variables, prompts, alerts
-var humanLife = 100;
+var humanLife = 100;//Players Life
 var dragLife = 100;
 var userName = prompt("Please enter your name, hero:");
 alert("How to play:\n1. When prompted enter a number 1 - 10 to attack the Dragon.");
@@ -26,15 +26,16 @@ if(dragAttack <= 5 && dragAttack > 1){
 if(dragAttack === 1 && dragAttack < 3){
     alert("You missed!");
     var attackAgain = prompt("Attack the dragon again");
-    prompt("Critical Strike!\nYou killed the dragon!");
+    alert("Critical Strike!\nYou killed the dragon!");
 }
 
-if(dragAttack < 10 && dragAttack > 8){
-    prompt("Critical Strike!\nYou killed the dragon!");
+if(dragAttack === 10 && dragAttack > 8){
+        alert("Critical Strike!\nYou killed the dragon!");
 }
 else if(dragAttack === 6 || dragAttack === 7) {
-    prompt("I'm sorry, " + userName + ", but the dragon defeated you!");
+    alert("I'm sorry, " + userName + ", but the dragon defeated you!");
+} else {
+    alert("Huh?");
 }
-
 
 
